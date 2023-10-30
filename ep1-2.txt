@@ -1,0 +1,24 @@
+Everything in Javascript happens inside the Execution Context.
+
+Execution Context
+1. Memory Component / Variable Environment
+    Memory Component contains variables and functions as the key value pairs.
+2. Code Component / Thread of Execution
+    Code Component is the place where whole Javascript code is executed.
+
+Javascript is a synchronous single threaded language.
+1. Single Threaded: Javascript can execute only one command at a time.
+2. Synchronous: Synchronous means in a specific order i.e it can only go to the next line for execution only after 
+   the current line is executed.
+
+Execution Context is created in two phases:
+1. Memory Creation Phase 
+   In this phase, Javascript will allocate memory to all the variables and functions.
+2. Code Execution Phase
+   In this phase, Javascript runs through the whole code and executes it line by line.
+
+
+/*
+
+   Call stack maintains the order of execution of the Execution Contexts.
+*/
